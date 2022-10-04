@@ -1,0 +1,271 @@
+body{
+    font-family: 'Rubik', sans-serif !important;
+    font-size: 24px !important;
+}
+.container{
+    max-width: 1140px;
+    width: 95%;
+}
+
+header{
+    padding: 85px 0;
+    background-color: #0E0E0E;
+    color: #fff;
+}
+header h1{
+    color: #FDC628;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.agenda{
+    padding: 25px 0;
+}
+.agenda ol{
+    padding-left: 30px;
+    counter-reset: list;
+    list-style: none;
+}
+.agenda ol li{
+    list-style-type: none;
+    counter-increment: list;
+    position: relative;
+    margin-top: 20px;
+}
+.agenda ol li::before{
+    content: counter(list);
+    margin-right: 15px;
+    position: absolute;
+    right: 100%;
+}
+.title{
+    font-size: 32px;
+    font-weight: 600;
+}
+.point-1 ul{
+    border-left: 4px solid #111111;
+    margin-left: 7px;
+    margin: 20px 0;
+}
+.point-1 ul li{
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    list-style: none;
+    max-width: 800px;
+    line-height: 36px;
+}
+.brick{
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.point-2 ul li b{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    display: block;
+}
+.point-2 ul li p{
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+.point-2 ul li b::before{
+    content: "";
+    width: 80%;
+    height: 4px;
+    background-color: #000;
+    left: 0;
+    top: -20px;
+    position: absolute;
+}
+
+.jackpot{
+    width: 1022px;
+    margin: auto;
+    max-width: 100%;
+    display: block;
+}
+.point-3 i{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.point-3 .img-des{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+.point-3 .img-des span{
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.list-title{
+    font-size: 24px;
+    font-weight:500;
+    margin-bottom: 0px;
+}
+.point-3 ul{
+    width: 100%;
+}
+.point-3 ul li{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+.res-plan{
+    width: 970px;
+    margin: auto;
+    max-width: 100%;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    margin-top: 48px;
+    margin-bottom: 13px;
+}
+.mini-links{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    color:#000;
+    word-break: break-all;
+    display: block;
+}
+.under-img{
+    width: 970px;
+    margin: auto;
+    text-align: left;
+    max-width: 100%;
+}
+.mini-links span{
+    color: #F17834;
+}
+.chalan .title{
+    font-weight: 500;
+    font-size: 28px;
+}
+.img-info{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.chalan-qot{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 60px 0;
+}
+.chalan-qot-2{
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+    max-width: 360px;
+    margin: 20px auto;
+    line-height: 18px;
+}
+.crutial ul li{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 22px; 
+    list-style-type: none;
+    position: relative;
+}
+.crutial ul li::before{
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f058";
+    position: absolute;
+    left: -25px;
+    top: 0;
+    color: #39D349;
+
+}
+.crutial ul li span,.stage .list-title span{
+    background-color: #7DFF8A;
+}
+.parito-title{
+    font-weight: 500;
+    font-size: 20px;
+    color: #104A58;
+    text-align: center;
+    margin-top: 10px;
+}
+.parito-des{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.point-4 .qot{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2C2C2C;
+}
+.point-4 .des{
+    font-size: 18px;
+    margin-top: 30px;
+    max-width: 510px;
+}
+.point-4 .img-title{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.stage .list-title i{
+    color: #39D349;
+    font-size: 18px;
+    margin-right: 5px;
+}
+.stage-card {
+    padding: 5px 40px;
+    border-left: 4px solid #111111;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+
+}
+.stage-card p{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    color: #393939;
+    margin: 0;
+
+}
+.top-bar p::before{
+    content: "";
+    width: 55%;
+    height: 4px;
+    background-color: #000;
+    left: 50%;
+    top: -25px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+
+.scences .title{
+    margin-top: 50px;
+}
+
+.scences .img-bottom{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.scences .img-top{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+.scences img{
+    min-height: 234px;
+}
+
