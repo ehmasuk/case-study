@@ -2,11 +2,13 @@ body{
     font-family: 'Rubik', sans-serif !important;
     font-size: 24px !important;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     max-width: 1140px;
     width: 95%;
 }
-
 header{
     padding: 85px 0;
     background-color: #0E0E0E;
@@ -398,6 +400,163 @@ header h1{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.bottom-raf{
+    margin-bottom: 30px;
+}
+.point-9{
+    padding: 90px 0;
+}
+.point-9 ul{
+    padding-left: 25px;
+}
+.point-9 ul li{
+    font-style: italic;
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.main-que{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.point-9 .sol{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 550px;
+}
+.point-9 .sol p{
+    margin-left: 5px;
+}
+.prototype{
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+.sol-3{
+    margin: 50px 0;
+}
+.query-2{
+    color: #fff;
+}
+.query-2 .prototype,.taken-head-row .prototype{
+    color: #FEC627;
+}
+.sol-with-flag{
+    font-weight: 500;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.flag-note{
+    color: #FFFFFF;
+}
+/* .red-flag,.green-flag{
+    position: absolute;
+    margin-right: 20px;
+} */
+.green-img,.red-img{
+    /* position: relative;
+    top: 0; */
+    left: 50%;
+    display: none;
+}
+
+
+.taken-head-row{
+    color: #fff;
+}
+.taken-head-row .taked-head{
+    font-weight: 700;
+    font-size: 20px;
+    max-width: 400px;
+
+}
+.left-ar-div{
+    margin-top: 150px;
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.left-ar-div p{
+    margin-bottom: 0;
+    font-size: 18px;
+
+}
+
+
+.right-ar-div{
+    padding-right: 30;
+    padding-left: 0;
+}
+.right-ar-div p{
+    margin-top: -150px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.right-arr .taked-head{
+    width: 300px;
+    margin-left: auto;
+    text-align: right;
+}
+
+
+
+.point-10 .head{
+    font-weight: 500;
+    margin-top: 30px;
+}
+.point-10 ul li b{
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.point-10 .label{
+    border-left: 4px solid #000;
+    padding-left: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.screens{
+    max-width: 950px;
+    margin: auto;
+}
+
+
+
+.res-proto{
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+
+.design-idea{
+    max-width: 700px;
+    margin: 80px auto;
+}
+.summery li{
+    margin-bottom: 40px;
+}
+.summery li b{
+    margin: 0 !important;
+}
+
+
+
+
+.back-top{
+    text-align: center;
+    padding: 50px 0;
+    font-weight: 600;
+
+}
+.back-top a{
+    text-decoration: none;
+    color: #000;
+}
 
 
 
@@ -406,7 +565,11 @@ header h1{
 
 
 
-
+@media only screen and (max-width:768px){
+    .left-ar-div,.right-ar-div p{
+        margin-top: 0;
+    }
+}
 
 
 
